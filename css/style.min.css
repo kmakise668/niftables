@@ -4430,11 +4430,17 @@ section.vision .vision-parent .vision-parent__grid .vision-parent__item {
 section.vision .vision-parent .vision-parent__grid .vision-parent__item.active::before {
   content: "";
   position: absolute;
-  top: 0;
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   bottom: 0;
-  left: 0;
-  width: 40%;
-  height: 100%;
+  left: var(--section-p);
+  width: 50%;
+  background-size: contain;
+  height: 80%;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -4445,10 +4451,10 @@ section.vision .vision-parent .vision-parent__grid .vision-parent__item.active::
 }
 
 section.vision .vision-parent .vision-parent__grid .vision-parent__item .vision-items {
-  width: 59%;
+  width: 55%;
   min-height: 450px;
   position: absolute;
-  top: 18%;
+  top: 20%;
   bottom: 0;
   right: 0;
   z-index: 20;
@@ -4642,6 +4648,25 @@ section.vision .planet img {
 
 @-webkit-keyframes top {
   0% {
+    background-image: url("../img/head.png"); }
+  0% {
+    background-image: url("../img/head.webp");
+    background-repeat: no-repeat;
+  }
+
+  100% {
+    background-image: url("../img/head-h.png"); }
+
+  100% {
+    background-image: url("../img/head-h.webp");
+    background-repeat: no-repeat;
+  }
+}
+
+@keyframes top {
+ 0% {
+    background-image: url("../img/head.png"); }
+  0% {
     background-image: url("../img/head.webp");
     background-repeat: no-repeat;
   }
@@ -4651,18 +4676,7 @@ section.vision .planet img {
 
   100% {
     background-image: url("../img/head-h.webp");
-  }
-}
-
-@keyframes top {
-
-  0% {
-    background-image: url("../img/head.webp");
     background-repeat: no-repeat;
-  }
-
-  100% {
-    background-image: url("../img/head-h.webp");
   }
 }
 
@@ -4784,9 +4798,8 @@ section.vision .planet img {
   position: relative;
   width: 4rem;
   height: 6rem;
-  margin: 0 auto;
-  top: 0;
-  left: 0;
+  top: 20%;
+  left: 55%;
   z-index: 20;
 }
 
@@ -5249,21 +5262,20 @@ section.vision .planet img {
 
 @-webkit-keyframes top {
 
-  0% { background-image: url(../img/head.webp); }
+   0% { background-image: url(../img/head.webp); }
 }
 
 @-webkit-keyframes top {
 
-   100% { background-image: url(../img/head-h.webp);
-    background-repeat: no-repeat; }
+  100% { background-image: url(../img/head-h.webp); }
 }
 
 @keyframes top {
+
   0% { background-image: url(../img/head.webp); }
 }
 
 @keyframes top {
 
-100% { background-image: url(../img/head-h.webp);
-  background-repeat: no-repeat; }
+  100% { background-image: url(../img/head-h.webp); }
 }
