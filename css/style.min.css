@@ -4641,14 +4641,12 @@ section.vision .planet img {
 }
 
 @-webkit-keyframes top {
-  .no-webp 0% {
-    background-image: url("../img/head.png"); }
   0% {
     background-image: url("../img/head.webp");
     background-repeat: no-repeat;
   }
 
-  .no-webp 100% {
+   100% {
     background-image: url("../img/head-h.png"); }
 
   100% {
@@ -4657,15 +4655,11 @@ section.vision .planet img {
 }
 
 @keyframes top {
-  .no-webp 0% {
-    background-image: url("../img/head.png"); }
+
   0% {
     background-image: url("../img/head.webp");
     background-repeat: no-repeat;
   }
-
-  .no-webp 100% {
-    background-image: url("../img/head-h.png"); }
 
   100% {
     background-image: url("../img/head-h.webp");
@@ -5255,20 +5249,20 @@ section.vision .planet img {
 
 @-webkit-keyframes top {
 
-  .webp 0% { background-image: url(../img/head.webp); }
+  0% { background-image: url(../img/head.webp); }
 }
 
 @-webkit-keyframes top {
 
-  .webp 100% { background-image: url(../img/head-h.webp); }
+   100% { background-image: url(../img/head-h.webp); }
 }
 
 @keyframes top {
 
-  .webp 0% { background-image: url(../img/head.webp); }
+  0% { background-image: url(../img/head.webp); }
 }
 
 @keyframes top {
 
-  .webp 100% { background-image: url(../img/head-h.webp); }
+100% { background-image: url(../img/head-h.webp); }
 }
