@@ -4,106 +4,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="css/style.min.css">  
+    <link rel="stylesheet" href="css/style.css">  
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title></title>
     <script src="js/script.min.js" defer></script>
 </head>
 <body>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <section id="process" class="process white">
-        <div class="container">
-            <div class="process-parent">
-                <div class="process-parent__sticky">
-                    <div class="section-title">
-                        <h2>the process</h2>
+
+    <div class="section"></div>
+    <section class="vision white">
+        <div class="vision-parent">
+            <div class="vision-parent__stick">
+                <div class="vision-parent__grid">
+                    <div class="vision-parent__item view active">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="number" data-max="300">0</span>
+                            </div>
+                            <div class="planet" style="padding-bottom: 5rem;"><picture><source srcset="./img/Mars.webp" type="image/webp"><img src="./img/Mars.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
+                                </div>
+                            </div>  
+                        </div>
                     </div>
-                    <div class="process-parent__flex">
-                        <div class="process-parent__pre">
-                            <span>pre</span>
-                            <hr>
+                    <div class="vision-parent__item">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="" data-cdc="300">31</span>
+                            </div>
+                            <div class="planet"><picture><source srcset="./img/Mercury.webp" type="image/webp"><img src="./img/Mercury.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
+                                </div>
+                            </div>  
                         </div>
-                        <div class="process-parent__grid">
-                            <div class="process-parent__item view active">
-                                <button onclick="reScroll(1, event)" class="process-item__button button-1"></button>
-                                <div class="process-item__bottom">
-                                    <span>01</span>
-                                    <hr>
-                                </div>
-                                <div class="process-item__info">
-                                    <h5>Design Your Platform</h5>
-                                    <p>Our marketing team will help you make the most of your launch. With our years of marketing experience we help you create the optimal launch strategy. We have a time, we have a date. LETS GO LIVE!</p>
-                                    <button><picture><source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png" alt="></picture>"></button>
-                                </div>
+                    </div>
+                    <div class="vision-parent__item">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="" data-max="300">31</span>
                             </div>
-                            <div class="process-parent__item">
-                                <button onclick="reScroll(2, event)" class="process-item__button button-2"></button>
-                                <div class="process-item__bottom">
-                                    <span>02</span>
-                                    <hr>
+                            <div class="planet"><picture><source srcset="./img/Uranus.webp" type="image/webp"><img src="./img/Uranus.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
                                 </div>
-                                <div class="process-item__info">
-                                    <h5>Development</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum autem nisi alias? Quo, atque? Pariatur sed adipisci quos dolorem!</p>
-                                    <button><picture><source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png" alt="></picture>"></button>
-                                </div>
-                            </div>
-                            <div class="process-parent__item">
-                                <button onclick="reScroll(3, event)" class="process-item__button button-3"></button>
-                                <div class="process-item__bottom">
-                                    <span>03</span>
-                                    <hr>
-                                </div>
-                                <div class="process-item__info">
-                                    <h5>Revenue Streams</h5>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quam.</p>
-                                    <button><picture><source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png" alt="></picture>"></button>
-                                </div>
-                            </div>
-                            <div class="process-parent__item">
-                                <button onclick="reScroll(4, event)" class="process-item__button button-4"></button>
-                                <div class="process-item__bottom">
-                                    <span>04</span>
-                                    <hr>
-                                </div>
-                                <div class="process-item__info">
-                                    <h5>Design your NFT's</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae incidunt voluptatibus provident! Impedit, rerum. Voluptatem, totam fugiat consequuntur laboriosam ullam enim.</p>
-                                    <button><picture><source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png" alt="></picture>"></button>
-                                </div>
-                            </div>
-                            <div class="process-parent__item">
-                                <button onclick="reScroll(5, event)" class="process-item__button button-5"></button>
-                                <div class="process-item__bottom">
-                                    <span>05</span>
-                                    <hr>
-                                </div>
-                                <div class="process-item__info">
-                                    <h5>Minting
-                                        and Distribution</h5>
-                                    <p>Our marketing team will help you make the most of your launch. With our years of marketing experience we help you create the optimal launch strategy. We have a time, we have a date. LETS GO LIVE!</p>
-                                    <button><picture><source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png" alt="></picture>"></button>
-                                </div>
-                            </div>
-                            <div class="process-parent__item">
-                                <button onclick="reScroll(6, event)" class="process-item__button button-6"></button>
-                                <div class="process-item__bottom">
-                                    <span>06</span>
-                                    <hr>
-                                </div>
-                                <div class="process-item__info">
-                                    <h5>Launch</h5>
-                                    <p>Our marketing team will help you make the most of your launch. With our years of marketing experience we help you create the optimal launch strategy. We have a time, we have a date. LETS GO LIVE!</p>
-                                    <button><picture><source srcset="img/bt-arrow.webp" type="image/webp"><img src="img/bt-arrow.png" alt="></picture>"></button>
-                                </div>
-                            </div>
+                            </div> 
                         </div>
+                    </div>
+                    <div class="vision-parent__item">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="" data-max="300">31</span>
+                            </div>
+                            <div class="planet"><picture><source srcset="./img/Neptune.webp" type="image/webp"><img src="./img/Neptune.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="vision-parent__item">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="" data-max="300">31</span>
+                            </div>
+                            <div class="planet"><picture><source srcset="./img/Venus.webp" type="image/webp"><img src="./img/Venus.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="vision-parent__item">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="" data-max="300">31</span>
+                            </div>
+                            <div class="planet"><picture><source srcset="./img/Saturn.webp" type="image/webp"><img src="./img/Saturn.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="vision-parent__item">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="" data-max="300">31</span>
+                            </div>
+                            <div class="planet"><picture><source srcset="./img/Jupiter.webp" type="image/webp"><img src="./img/Jupiter.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
+                                </div>
+                            </div>  
+    
+                        </div>
+                    </div>
+                    <div class="vision-parent__item">
+                        <div class="vision-items">
+                            <div class="theme-f">
+                                <div class="f1"></div>
+                                <div class="f2"></div>
+                                <div class="f3"></div>
+                                <span class="" data-max="300">31</span>
+                            </div>
+                            <div class="planet"><picture><source srcset="./img/Earth.webp" type="image/webp"><img src="./img/Earth.png" alt=""></picture></div>
+                            <div class="vision-content">
+                                <div class="text">
+                                    <div class="title">December 2021</div>
+                                    <p>First MVP available for testing. Global creator recruitment started. 5 top global influencers signed for development of white label platforms. Token IDO.</p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div id="video-bg">
+                        <video autoplay muted loop id="myVideo">
+                            <source src="./img/123.gif.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <div class="section"></div>
+
+    <div class="container pb white">
+        <div class="theme-f">
+            <div class="f1"></div>
+            <div class="f2"></div>
+            <div class="f3"></div>
+            <span>31</span>
+        </div>
+        <div class="" data-max="300">0</div>
+    </div>
 </body>
 </html>
 
