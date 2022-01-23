@@ -5254,15 +5254,16 @@ section.vision .planet img {
 
 @-webkit-keyframes top {
 
-   100% { background-image: url(../img/head-h.webp); }
+   100% { background-image: url(../img/head-h.webp);
+    background-repeat: no-repeat; }
 }
 
 @keyframes top {
-
   0% { background-image: url(../img/head.webp); }
 }
 
 @keyframes top {
 
-100% { background-image: url(../img/head-h.webp); }
+100% { background-image: url(../img/head-h.webp);
+  background-repeat: no-repeat; }
 }
