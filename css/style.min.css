@@ -5262,20 +5262,24 @@ section.vision .planet img {
 
 @-webkit-keyframes top {
 
-   0% { background-image: url(../img/head.webp); }
+   0% { background-image: url(../img/head.webp);
+    background-repeat: no-repeat; }
 }
 
 @-webkit-keyframes top {
 
-  100% { background-image: url(../img/head-h.webp); }
+  100% { background-image: url(../img/head-h.webp);
+    background-repeat: no-repeat; }
 }
 
 @keyframes top {
 
-  0% { background-image: url(../img/head.webp); }
+  0% { background-image: url(../img/head.webp);
+    background-repeat: no-repeat; }
 }
 
 @keyframes top {
 
-  100% { background-image: url(../img/head-h.webp); }
+  100% { background-image: url(../img/head-h.webp);
+    background-repeat: no-repeat; }
 }
