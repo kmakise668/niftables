@@ -4770,11 +4770,31 @@ section.vision .planet img {
 @-webkit-keyframes head {
   0% {
     background-image: url("../img/head.webp");
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: var( --section-p);
+    width: 50%;
+    background-size: contain;
+    height: 80%;
+    transition: 0.3s;
     background-repeat: no-repeat;
   }
 
   100% {
     background-image: url("../img/head-h.webp");
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: var( --section-p);
+    width: 50%;
+    background-size: contain;
+    height: 80%;
+    transition: 0.3s;
     background-repeat: no-repeat;
   }
 }
@@ -5311,22 +5331,3 @@ section.vision .planet img {
   }
 }
 
-@-webkit-keyframes top {
-
- 0% { background-image: url(../img/head.webp); }
-}
-
-@-webkit-keyframes top {
-
-   100% { background-image: url(../img/head-h.webp); }
-}
-
-@keyframes top {
-
-  0% { background-image: url(../img/head.webp); }
-}
-
-@keyframes top {
-
-  100% { background-image: url(../img/head-h.webp); }
-}
