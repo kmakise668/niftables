@@ -4442,7 +4442,7 @@ section.vision .vision-parent .vision-parent__grid .vision-parent__item.active::
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  background-image: url("../img/head-h.webp");
+  background-image: url("../img/head.webp");
   background-repeat: no-repeat;
   -webkit-animation: 1.2s linear 0s 1 alternate head;
           animation: 1.2s linear 0s 1 alternate head;
@@ -4644,73 +4644,6 @@ section.vision .planet img {
   }
 }
 
-@-webkit-keyframes top {
-
-  0% {
-    background-image: url("../img/head.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
-    background-repeat: no-repeat;
-  }
-
-  100% {
-    background-image: url("../img/head-h.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
-    background-repeat: no-repeat;
-  }
-}
-
-@keyframes top {
-
-  0% {
-    background-image: url("../img/head.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
-    background-repeat: no-repeat;
-  }
-
-
-  100% {
-    background-image: url("../img/head-h.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
-    background-repeat: no-repeat;
-  }
-}
-
 @-webkit-keyframes text {
   0% {
     opacity: 1;
@@ -4770,31 +4703,11 @@ section.vision .planet img {
 @-webkit-keyframes head {
   0% {
     background-image: url("../img/head.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
     background-repeat: no-repeat;
   }
 
   100% {
     background-image: url("../img/head-h.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
     background-repeat: no-repeat;
   }
 }
@@ -4802,31 +4715,11 @@ section.vision .planet img {
 @keyframes head {
   0% {
     background-image: url("../img/head.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
     background-repeat: no-repeat;
   }
 
   100% {
     background-image: url("../img/head-h.webp");
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
     background-repeat: no-repeat;
   }
 }
@@ -5329,69 +5222,4 @@ section.vision .planet img {
   html {
     font-size: calc(8.3px + 1.5 * (100vw - 768px) / 256);
   }
-}
-
-@-webkit-keyframes top {
-
- 0% { background-image: url(../img/head.webp); 
-  content: '';
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: 0;
-  left: var( --section-p);
-  width: 50%;
-  background-size: contain;
-  height: 80%;
-  transition: 0.3s;
-  background-repeat: no-repeat;
-}
-}
-
-@-webkit-keyframes top {
-
-   100% { background-image: url(../img/head-h.webp); 
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
-    background-repeat: no-repeat;}
-}
-
-@keyframes top {
-
-  0% { background-image: url(../img/head.webp); 
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
-    background-repeat: no-repeat;}
-}
-
-@keyframes top {
-
-  100% { background-image: url(../img/head-h.webp); 
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: 0;
-    left: var( --section-p);
-    width: 50%;
-    background-size: contain;
-    height: 80%;
-    transition: 0.3s;
-    background-repeat: no-repeat;}
 }
